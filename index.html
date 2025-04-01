@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="/profile.ico">
   </head>
   <body>
+    <!-- april fools check marquee because why not?? -->
+    <marquee id="april"></marquee>
     <h1>craxel web</h1>
     <p>welcome to the craxel web!!!</p>
     <h2>video</h2>
@@ -14,5 +16,14 @@
       <source src="mario says english or spanish.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
+    <script>
+        document.getElementById("april").innerHTML = "";
+        const time = new Date();
+        if (time.getMonth() === 3) {
+        	if (time.getDate() === 1) {
+            	document.getElementById("april").innerHTML = "happy april fools!";
+            }
+        }
+</script>
   </body>
 </html>
