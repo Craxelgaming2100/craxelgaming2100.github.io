@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- april fools check marquee because why not?? -->
-    <marquee id="april"></marquee>
+    <marquee id="april" style="display:none">happy april fools!</marquee>
     <h1>NotCraxel Web!!</h1>
     <p>welcome to The NotCraxel Web!!!</p>
     <p>here, you'll see some stuff including things i'm working on.</p>
@@ -43,11 +43,11 @@
       </li>
     </ul>
     <script>
-        document.getElementById("april").innerHTML = "";
+      // cool.
         const time = new Date();
         if (time.getMonth() === 3) {
         	if (time.getDate() === 1) {
-            	document.getElementById("april").innerHTML = "happy april fools!";
+            	document.getElementById("april").style.display="block";
             }
         }
 </script>
