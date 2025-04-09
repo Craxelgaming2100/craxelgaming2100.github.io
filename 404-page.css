@@ -25,6 +25,21 @@ a {
   color: white !important;
 }
 
+a:visited {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #d6d6d6 !important;
+}
+
+a:active {
+  text-decoration: none !important;
+  color: #d6d6d6 !important;
+}
+
 button {
   background-color: #151723;
   border: none;
