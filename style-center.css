@@ -35,6 +35,11 @@ ul {
   list-style-position: inside;
 }
 
+ul.no-bullet {
+  text-align: center;
+  list-style: none;
+}
+
 button {
   background-color: #151723;
   border: none;
